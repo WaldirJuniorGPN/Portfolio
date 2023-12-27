@@ -58,6 +58,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 .apresentacao__links {
@@ -109,4 +110,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+.apresentacao__conteudo__titulo__biografia__paragrafo {
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.aprensentacao__conteudo__titulo__biografia__lista {
+    padding: 3%;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
