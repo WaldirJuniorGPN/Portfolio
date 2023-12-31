@@ -36,7 +36,7 @@ body {
 .cabecalho__menu__link {
     font-family: var(--fonte-primaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--cor-terciaria);
 }
@@ -50,22 +50,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 85px
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 49%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__conteudo__paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--fonte-primaria);
     text-align: justify;
@@ -85,11 +86,11 @@ body {
     align-items: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 49%;
     height: 65px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 5px 0 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -101,15 +102,15 @@ body {
     background-color: #272727;
 }
 
-.apresentacao__imagem {
-    width: 615px;
-    border-radius: 16px;
-}
-
 .aprensentacao__links__subtitulo {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 24px ;
+    font-size: 1.5rem ;
+}
+
+.apresentacao__imagem {
+    width: 49%;
+    border-radius: 2rem;
 }
 
 .rodape {
@@ -118,7 +119,7 @@ body {
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -133,4 +134,25 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     text-align: justify;
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
 }
